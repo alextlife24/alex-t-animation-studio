@@ -1,0 +1,7 @@
+.env
+.models/
+build/
+output/
+episodes/*/fonts_link/
+__pycache__/
+*.blend1

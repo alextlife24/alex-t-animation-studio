@@ -1,0 +1,52 @@
+{
+  "series": {
+    "en": "Instinct Service",
+    "zh": "本能服務"
+  },
+  "logline": "Real animal biology collides with human etiquette and service-industry rules.",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "audio": {
+    "sample_rate": 48000,
+    "loudness_lufs": -16,
+    "true_peak_db": -2.5
+  },
+  "fonts": {
+    "subtitle": "Microsoft JhengHei",
+    "subtitle_file": "C:/Windows/Fonts/NotoSansTC-VF.ttf",
+    "ui_cjk_file": "C:/Windows/Fonts/msjhbd.ttc",
+    "ui_cjk_regular_file": "C:/Windows/Fonts/msjh.ttc",
+    "ui_latin_file": "C:/Windows/Fonts/NotoSans-Bold.ttf",
+    "ui_latin_regular_file": "C:/Windows/Fonts/NotoSans-Regular.ttf"
+  },
+  "layout": {
+    "subtitle_margin_bottom": 360,
+    "subtitle_font_size": 62,
+    "card_top": 250,
+    "card_width": 860
+  },
+  "look": {
+    "style": "low-poly 3D, visible facets, matte materials, soft shadows",
+    "palette": {
+      "wood_dark": "#2b1a12",
+      "wood_mid": "#4a2c1c",
+      "brass": "#b98a3e",
+      "amber_light": "#ffb35c",
+      "window_blue": "#2d4a73",
+      "forest_far": "#3d5f86",
+      "uv_violet": "#7a3cff",
+      "fluor": "#35f2c8",
+      "card_bg": "#151a22"
+    },
+    "color_management": {
+      "view": "AgX",
+      "look": "AgX - Medium High Contrast",
+      "exposure": 0.0
+    }
+  },
+  "set": "forest_bar",
+  "render_samples": 16
+}

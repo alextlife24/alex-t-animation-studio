@@ -1,0 +1,29 @@
+{
+  "_doc": "Sound design for EP01. cues: [t, sfx, gain dB, pan -1..1]. Bear finger taps, UV hum and fridge hum level follow acting.json automatically. duck: [t0, t1, music dB offset, ambience dB offset] - silence is the joke, so music drops out in the awkward pauses.",
+  "music": {"db": -29.0, "key": "F", "bpm": 72},
+  "ambience": {"room_db": -46.0, "murmur_db": -48.0, "clink_db": -44.0, "fridge_hum_db": -41.0, "fridge_open_boost_db": 7.0},
+  "duck": [
+    ["L05.end+0.1", 28.2, -40.0, -8.0],
+    ["L09.end+0.05", "L10.start-0.1", -60.0, -60.0],
+    [72.9, 75.6, -60.0, -10.0]
+  ],
+  "cues": [
+    [1.5, "menu_close", -24, 0.25],
+    [1.98, "menu_set", -21, 0.25],
+    [6.97, "glass_slide", -27, -0.05],
+    [7.55, "glass_set", -21, -0.05],
+    [8.78, "fridge_open", -18, 0.15],
+    [9.97, "bottle_clink", -24, 0.15],
+    [11.05, "fridge_close", -20, 0.1],
+    [11.75, "bottle_rattle", -32, 0.0],
+    [13.5, "bottle_set", -20, -0.2],
+    [18.0, "notify", -22, -0.35],
+    [42.3, "bowtie_rustle", -34, -0.1],
+    [65.3, "lamp_lift", -28, -0.2],
+    [72.0, "dimmer_click", -22, 0.1],
+    [72.65, "uv_click", -20, -0.1],
+    [85.2, "uv_click", -22, -0.1],
+    ["L19.end+0.15", "notify", -22, -0.35],
+    [88.9, "register_chime", -19, 0.0]
+  ]
+}

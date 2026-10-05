@@ -1,0 +1,3 @@
+# verify.py only (speech check). On Windows-on-ARM install into an x64 Python.
+faster-whisper==1.2.1
+ctranslate2==4.8.2

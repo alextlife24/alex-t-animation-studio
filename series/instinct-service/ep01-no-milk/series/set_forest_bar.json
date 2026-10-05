@@ -1,0 +1,358 @@
+{
+ "_doc": "Reusable set: night forest fine-dining bar. World units = metres, Z up. Patrick works behind the bar (+Y side), the customer sits on the -Y side. Camera presets: pos/look in world space, lens in mm (36 mm sensor fitted to the 1920 px height).",
+ "bar": {
+  "x": [
+   -2.6,
+   2.6
+  ],
+  "y": [
+   -0.32,
+   0.32
+  ],
+  "top": 1.08
+ },
+ "back_counter": {
+  "y": [
+   1.22,
+   1.85
+  ],
+  "top": 0.95
+ },
+ "back_wall_y": 1.95,
+ "front_wall_y": -3.6,
+ "window_back": {
+  "x": [
+   0.62,
+   2.45
+  ],
+  "z": [
+   1.12,
+   2.85
+  ]
+ },
+ "window_front": {
+  "x": [
+   -1.6,
+   0.9
+  ],
+  "z": [
+   1.0,
+   2.7
+  ]
+ },
+ "characters": {
+  "patrick": {
+   "pos": [
+    -0.22,
+    0.64,
+    0.97
+   ],
+   "yaw": 192
+  },
+  "bear": {
+   "pos": [
+    0.3,
+    -0.74,
+    0.86
+   ],
+   "yaw": 12
+  }
+ },
+ "props": {
+  "glass": {
+   "pos": [
+    0.1,
+    0.24,
+    1.08
+   ],
+   "yaw": 0
+  },
+  "register": {
+   "pos": [
+    -0.98,
+    0.1,
+    1.08
+   ],
+   "yaw": -58
+  },
+  "uvlamp": {
+   "pos": [
+    -0.55,
+    0.18,
+    1.08
+   ],
+   "yaw": -40
+  },
+  "fridge": {
+   "pos": [
+    0.1,
+    1.43,
+    0.95
+   ],
+   "yaw": 0
+  },
+  "dimmer": {
+   "pos": [
+    0.17,
+    0.28,
+    1.08
+   ],
+   "yaw": -10
+  }
+ },
+ "anchors": {
+  "glass_serve": [
+   0.02,
+   0.06,
+   1.08
+  ],
+  "pat_rest_R": [
+   -0.4,
+   0.31,
+   1.13
+  ],
+  "pat_rest_L": [
+   -0.04,
+   0.33,
+   1.13
+  ],
+  "bear_rest_R": [
+   0.6,
+   -0.24,
+   1.12
+  ],
+  "bear_rest_L": [
+   0.0,
+   -0.26,
+   1.12
+  ]
+ },
+ "cameras": {
+  "WIDE": {
+   "pos": [
+    2.35,
+    -0.8,
+    1.82
+   ],
+   "look": [
+    0.0,
+    -0.04,
+    1.5
+   ],
+   "lens": 28,
+   "focus": [
+    0.04,
+    -0.05,
+    1.6
+   ],
+   "fstop": 5.6
+  },
+  "PAT_CU": {
+   "pos": [
+    -0.7,
+    -0.42,
+    1.68
+   ],
+   "look": [
+    -0.22,
+    0.6,
+    1.6
+   ],
+   "lens": 45,
+   "focus": "patrick_head",
+   "fstop": 2.4
+  },
+  "PAT_MS": {
+   "pos": [
+    -0.52,
+    -1.2,
+    1.62
+   ],
+   "look": [
+    -0.22,
+    0.52,
+    1.4
+   ],
+   "lens": 36,
+   "focus": "patrick_head",
+   "fstop": 2.8
+  },
+  "BEAR_CU": {
+   "pos": [
+    0.12,
+    0.4,
+    1.7
+   ],
+   "look": [
+    0.3,
+    -0.74,
+    1.96
+   ],
+   "lens": 40,
+   "focus": "bear_head",
+   "fstop": 2.4
+  },
+  "FRIDGE": {
+   "pos": [
+    -0.15,
+    0.3,
+    1.75
+   ],
+   "look": [
+    0.18,
+    1.05,
+    1.12
+   ],
+   "lens": 26,
+   "focus": [
+    0.15,
+    1.0,
+    1.15
+   ],
+   "fstop": 4.0
+  },
+  "SCREEN": {
+   "pos": [
+    -0.66,
+    0.7,
+    1.5
+   ],
+   "look": [
+    -0.98,
+    0.1,
+    1.25
+   ],
+   "lens": 45,
+   "focus": "register_screen",
+   "fstop": 2.8
+  },
+  "LAMP": {
+   "pos": [
+    -0.22,
+    -0.32,
+    1.36
+   ],
+   "look": [
+    -0.55,
+    0.18,
+    1.14
+   ],
+   "lens": 48,
+   "focus": "prop:uvlamp",
+   "fstop": 2.2
+  },
+  "GLASS": {
+   "pos": [
+    -0.24,
+    -0.3,
+    1.42
+   ],
+   "look": [
+    0.02,
+    0.06,
+    1.27
+   ],
+   "lens": 40,
+   "focus": "prop:glass",
+   "fstop": 8.0
+  }
+ },
+ "fridge": {
+  "door_open_max": 65,
+  "bottle_in_door": [
+   -0.3,
+   0.07,
+   0.035
+  ]
+ },
+ "home": {
+  "patrick": {
+   "R": [
+    0.1,
+    0.3,
+    0.16
+   ],
+   "L": [
+    -0.1,
+    0.3,
+    0.16
+   ]
+  },
+  "bear": {
+   "R": [
+    0.25,
+    0.45,
+    0.3
+   ],
+   "L": [
+    -0.25,
+    0.45,
+    0.3
+   ]
+  }
+ },
+ "grips": {
+  "glass": {
+   "pos": [
+    0,
+    0.075,
+    0.06
+   ],
+   "rot": [
+    0,
+    0,
+    180
+   ]
+  },
+  "bottle": {
+   "pos": [
+    0,
+    0.075,
+    0.085
+   ],
+   "rot": [
+    0,
+    0,
+    180
+   ]
+  },
+  "uvlamp": {
+   "pos": [
+    0,
+    0.03,
+    0.13
+   ],
+   "rot": [
+    0,
+    0,
+    180
+   ]
+  },
+  "dimmer": {
+   "pos": [
+    0,
+    0.07,
+    0.04
+   ],
+   "rot": [
+    0,
+    0,
+    180
+   ]
+  }
+ },
+ "pendants": [
+  [
+   -1.55,
+   0.05
+  ],
+  [
+   -0.12,
+   0.36
+  ],
+  [
+   0.95,
+   0.0
+  ]
+ ]
+}

@@ -1,0 +1,18 @@
+# secrets
+.env
+*.pem
+*.key
+# large / regenerable
+**/build/
+**/output/
+**/.models/
+**/frames/
+**/fonts_link/
+*.mp4
+*.mov
+*.blend
+*.blend1
+__pycache__/
+.venv/
+venv/
+node_modules/

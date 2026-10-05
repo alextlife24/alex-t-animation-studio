@@ -1,0 +1,67 @@
+{
+  "patrick": {
+    "name": {
+      "en": "Patrick",
+      "zh": "派崔克"
+    },
+    "species": "platypus (Ornithorhynchus anatinus), adult male",
+    "personality": "Honest, nervous, only wants to do the job well. Sympathetic, never just the butt of the joke.",
+    "look": {
+      "fur": "#6e4527",
+      "belly": "#94673f",
+      "bill": "#454c56",
+      "paw": "#3f3029",
+      "bowtie": "#b8222c",
+      "bowtie_tilt_deg": 11
+    },
+    "voice": {
+      "engine": "kokoro",
+      "style": [
+        "bm_fable"
+      ],
+      "weights": [
+        1.0
+      ],
+      "lang": "en-gb",
+      "speed": 0.95,
+      "pitch_semitones": 0.0,
+      "direction": "slightly light, buttoned-up, trying to stay professional; no shouting, minimal stammer"
+    },
+    "subtitle_color": "&H00FFFFFF"
+  },
+  "bear": {
+    "name": {
+      "en": "Mr. Bear",
+      "zh": "黑熊先生"
+    },
+    "species": "American black bear",
+    "personality": "Serious, fussy; states unreasonable demands as basic common sense. Calmer as things get more absurd.",
+    "look": {
+      "fur": "#2b2728",
+      "muzzle": "#8c6d52",
+      "brow": "#a07b55",
+      "jacket": "#252b3a",
+      "lapel": "#2f3648",
+      "shirt": "#e9e4da",
+      "tie": "#5a1f2a",
+      "pocket_square": "#c9a45a"
+    },
+    "voice": {
+      "engine": "kokoro",
+      "style": [
+        "bm_george",
+        "am_onyx"
+      ],
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "lang": "en-gb",
+      "speed": 0.9,
+      "pitch_semitones": -1.0,
+      "direction": "low, steady, dry; the more absurd, the calmer"
+    },
+    "subtitle_color": "&H00FFFFFF"
+  },
+  "_manager": "The manager never appears and never speaks: text on the register screen only."
+}

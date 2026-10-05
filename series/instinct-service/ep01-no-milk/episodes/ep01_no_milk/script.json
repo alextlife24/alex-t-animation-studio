@@ -1,0 +1,61 @@
+{
+  "episode": 1,
+  "title": {"en": "No Milk. Quite a Glow.", "zh": "沒有牛奶，但有亮點"},
+  "duration_s": 90.0,
+  "trait": {
+    "subject": "platypus",
+    "facts": [
+      "Female platypuses produce milk; males do not.",
+      "Platypus fur fluoresces blue-green under ultraviolet light (Anich et al. 2021, Mammalia, doi:10.1515/mammalia-2020-0027)."
+    ],
+    "rules": [
+      "Patrick is male: never shows lactation.",
+      "Never say the species doesn't produce milk.",
+      "Glow appears only where UV light hits the fur, disappears when UV is off.",
+      "Do not claim the natural function of the fluorescence is known.",
+      "No other trivia (no spur) this episode."
+    ]
+  },
+  "beats": [
+    {"id": "B1", "t": [0, 8],   "name": "Order"},
+    {"id": "B2", "t": [8, 18],  "name": "Out of stock"},
+    {"id": "B3", "t": [18, 28], "name": "Manager pressure"},
+    {"id": "B4", "t": [28, 40], "name": "Wrong expectation"},
+    {"id": "B5", "t": [40, 51], "name": "Dead silence"},
+    {"id": "B6", "t": [51, 63], "name": "Biology and management"},
+    {"id": "B7", "t": [63, 73], "name": "Crisis pivot"},
+    {"id": "B8", "t": [73, 83], "name": "Fluorescent reveal"},
+    {"id": "B9", "t": [83, 90], "name": "Ending"}
+  ],
+  "lines": [
+    {"id": "L01", "beat": "B1", "who": "bear",    "at": 2.30,  "en": "A glass of milk. Fresh.", "sentence_pause": 0.55,            "zh": "一杯牛奶。要新鮮的。"},
+    {"id": "L02", "beat": "B1", "who": "patrick", "at": 5.60,  "en": "Of course, sir.",                    "zh": "當然，先生。"},
+    {"id": "L03", "beat": "B2", "who": "patrick", "at": 12.40, "en": "A small complication. We're out.", "sentence_pause": 0.45,   "zh": "有個小狀況。牛奶用完了。"},
+    {"id": "L04", "beat": "B2", "who": "bear",    "at": 16.50, "en": "Then make some.",                    "zh": "那就做一些。"},
+    {"id": "L05", "beat": "B3", "who": "patrick", "at": 23.30, "en": "Right. On the spot.", "sentence_pause": 0.4,                "zh": "好的。現場解決。"},
+    {"id": "L06", "beat": "B4", "who": "bear",    "at": 28.60, "en": "You're a mammal.",                   "zh": "你是哺乳動物。"},
+    {"id": "L07", "beat": "B4", "who": "patrick", "at": 31.00, "en": "Yes, sir.",                          "zh": "是的，先生。"},
+    {"id": "L08", "beat": "B4", "who": "bear",    "at": 33.20, "en": "Milk is rather your department.",    "zh": "牛奶應該算你的業務範圍吧。"},
+    {"id": "L09", "beat": "B5", "who": "patrick", "at": 40.40, "en": "I'm male, sir.",                     "zh": "我是公的，先生。"},
+    {"id": "L10", "beat": "B5", "who": "bear",    "at": 45.20, "en": "That wasn't on the menu.",           "zh": "菜單上沒寫。"},
+    {"id": "L11", "beat": "B6", "who": "patrick", "at": 51.40, "en": "Biology does have limitations.",     "zh": "生物學確實有它的限制。"},
+    {"id": "L12", "beat": "B6", "who": "bear",    "at": 54.90, "en": "Have you spoken to management?",     "zh": "你跟管理階層反映過嗎？"},
+    {"id": "L13", "beat": "B6", "who": "patrick", "at": 59.90, "en": "Unfortunately.",                     "zh": "很不幸，反映過了。"},
+    {"id": "L14", "beat": "B7", "who": "patrick", "at": 66.30, "en": "May I offer something unexpected?",  "zh": "容我提供一點意想不到的東西？"},
+    {"id": "L15", "beat": "B7", "who": "bear",    "at": 69.60, "en": "You already have.",                  "zh": "你已經提供了。"},
+    {"id": "L16", "beat": "B8", "who": "bear",    "at": 76.20, "en": "Why are you glowing?",               "zh": "你為什麼在發光？"},
+    {"id": "L17", "beat": "B8", "who": "patrick", "at": 78.20, "en": "Biofluorescence, sir.",              "zh": "生物螢光，先生。"},
+    {"id": "L18", "beat": "B9", "who": "bear",    "at": 83.30, "en": "Does that cost extra?",              "zh": "這個要加價嗎？"},
+    {"id": "L19", "beat": "B9", "who": "patrick", "at": 85.50, "en": "I'll ask management.",               "zh": "我問一下經理。"}
+  ],
+  "screens": [
+    {"id": "idle",    "en": "BAR · SEAT 2\nORDER OPEN", "zh": ""},
+    {"id": "manager", "en": "MANAGER:\nResolve it on the spot.", "zh": "經理：立刻現場解決。"},
+    {"id": "fee",     "en": "ADD EXPERIENCE FEE?", "zh": "是否加收體驗費？"}
+  ],
+  "cards": [
+    {"id": "C1", "t": [47.1, 50.7], "en": "Female platypuses produce milk.", "zh": "雌性鴨嘴獸會分泌乳汁。"},
+    {"id": "C2", "t": [80.5, 83.0], "en": "Platypus fur fluoresces under UV light.", "zh": "鴨嘴獸毛皮在紫外線下會呈現螢光。"}
+  ],
+  "end_title": {"t": [88.7, 90.0]}
+}
