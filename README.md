@@ -17,6 +17,7 @@ series/
 | 集數 | 片名 | 規格 | 資料夾 | 成片 |
 |---|---|---|---|---|
 | EP.01 | 沒有牛奶，但有亮點｜No Milk. Quite a Glow. | 90 秒，1080×1920，30 fps | [ep01-no-milk](series/instinct-service/ep01-no-milk/) | [Release](https://github.com/alextlife24/alex-t-animation-studio/releases/tag/instinct-service-ep01-v1.0.0) |
+| EP.02 | 閉眼服務｜Service with Eyes Closed | 90 秒，1080×1920，30 fps | [ep02-eyes-closed](series/instinct-service/ep02-eyes-closed/) | [Release](https://github.com/alextlife24/alex-t-animation-studio/releases/tag/instinct-service-ep02-v1.0.0) |
 
 ## 規則
 

@@ -1,0 +1,322 @@
+{
+ "episode": 2,
+ "title": {
+  "en": "Service with Eyes Closed",
+  "zh": "閉眼服務"
+ },
+ "duration_s": 90.0,
+ "trait": {
+  "subject": "platypus",
+  "facts": [
+   "Platypuses hunt underwater with eyes, ears and nostrils closed, locating prey with electroreceptors and mechanoreceptors in the bill (Australian Museum, https://australian.museum/learn/animals/mammals/platypus/)."
+  ],
+  "rules": [
+   "Electroreception is a sense: never generating, charging or discharging electricity. The phone stays at 1%.",
+   "The demonstration happens underwater with the bill actually in the water, never through glass or in air.",
+   "Eyes closed underwater is not sleep; Mr. Bear's accusation is his misunderstanding.",
+   "No spoken lines while Patrick is underwater.",
+   "Signal graphics are a faint 2D overlay for the viewer, not visible lightning in the scene.",
+   "Electroreception locates the live shrimp; it is not a freshness-testing instrument.",
+   "No other trivia this episode (no spur, no fluorescence)."
+  ]
+ },
+ "beats": [
+  {
+   "id": "B1",
+   "t": [
+    0,
+    9
+   ],
+   "name": "New request"
+  },
+  {
+   "id": "B2",
+   "t": [
+    9,
+    19
+   ],
+   "name": "Management order"
+  },
+  {
+   "id": "B3",
+   "t": [
+    19,
+    30
+   ],
+   "name": "Preparation"
+  },
+  {
+   "id": "B4",
+   "t": [
+    30,
+    41
+   ],
+   "name": "Misunderstanding"
+  },
+  {
+   "id": "B5",
+   "t": [
+    41,
+    53
+   ],
+   "name": "Locating"
+  },
+  {
+   "id": "B6",
+   "t": [
+    53,
+    65
+   ],
+   "name": "Trivia"
+  },
+  {
+   "id": "B7",
+   "t": [
+    65,
+    76
+   ],
+   "name": "Misreading the ability"
+  },
+  {
+   "id": "B8",
+   "t": [
+    76,
+    85
+   ],
+   "name": "Clarification"
+  },
+  {
+   "id": "B9",
+   "t": [
+    85,
+    90
+   ],
+   "name": "Management twist"
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "beat": "B1",
+   "who": "bear",
+   "at": 1.0,
+   "en": "The shrimp. Are they fresh?",
+   "sentence_pause": 0.6,
+   "zh": "那些蝦，新鮮嗎？"
+  },
+  {
+   "id": "L02",
+   "beat": "B1",
+   "who": "patrick",
+   "at": 4.25,
+   "en": "They're alive, sir.",
+   "zh": "牠們還活著，先生。"
+  },
+  {
+   "id": "L03",
+   "beat": "B1",
+   "who": "bear",
+   "at": 6.45,
+   "en": "I'd like independent confirmation.",
+   "zh": "我要你親自確認。"
+  },
+  {
+   "id": "L04",
+   "beat": "B2",
+   "who": "patrick",
+   "at": 15.2,
+   "en": "Both. Of course.",
+   "sentence_pause": 0.7,
+   "zh": "兩件都要。當然。"
+  },
+  {
+   "id": "L05",
+   "beat": "B3",
+   "who": "patrick",
+   "at": 23.0,
+   "en": "One moment, sir.",
+   "zh": "請稍等，先生。"
+  },
+  {
+   "id": "L06",
+   "beat": "B4",
+   "who": "bear",
+   "at": 32.2,
+   "en": "Are you sleeping?",
+   "zh": "你在睡覺嗎？"
+  },
+  {
+   "id": "L07",
+   "beat": "B4",
+   "who": "bear",
+   "at": 37.0,
+   "en": "During my complaint?",
+   "zh": "還是在我投訴的時候？"
+  },
+  {
+   "id": "L08",
+   "beat": "B5",
+   "who": "patrick",
+   "at": 48.6,
+   "en": "Confirmed. Alive.",
+   "sentence_pause": 0.6,
+   "zh": "確認了。還活著。"
+  },
+  {
+   "id": "L09",
+   "beat": "B6",
+   "who": "bear",
+   "at": 53.5,
+   "en": "With your eyes closed?",
+   "zh": "你剛才閉著眼睛？"
+  },
+  {
+   "id": "L10",
+   "beat": "B6",
+   "who": "patrick",
+   "at": 55.9,
+   "en": "My bill detects tiny electrical signals from prey.",
+   "zh": "我的嘴喙能感應\\N獵物的微弱電訊號。"
+  },
+  {
+   "id": "L11",
+   "beat": "B6",
+   "who": "patrick",
+   "at": 60.3,
+   "en": "Underwater, I don't need to see them.",
+   "zh": "在水裡，我不用看見牠們。"
+  },
+  {
+   "id": "L12",
+   "beat": "B7",
+   "who": "bear",
+   "at": 67.4,
+   "en": "Electrical. Excellent.",
+   "sentence_pause": 0.7,
+   "zh": "電。很好。"
+  },
+  {
+   "id": "L13",
+   "beat": "B7",
+   "who": "bear",
+   "at": 72.6,
+   "en": "Charge this.",
+   "zh": "幫這個充電。"
+  },
+  {
+   "id": "L14",
+   "beat": "B8",
+   "who": "patrick",
+   "at": 76.2,
+   "en": "I detect electricity, sir. I don't generate it.",
+   "sentence_pause": 0.45,
+   "zh": "先生，我能感應電，不能發電。"
+  },
+  {
+   "id": "L15",
+   "beat": "B8",
+   "who": "bear",
+   "at": 81.4,
+   "en": "So the service has limitations.",
+   "zh": "所以，你們的服務有限制。"
+  },
+  {
+   "id": "L16",
+   "beat": "B8",
+   "who": "patrick",
+   "at": 84.0,
+   "en": "Several.",
+   "zh": "還不少。"
+  }
+ ],
+ "screens": [
+  {
+   "id": "idle",
+   "kind": "idle",
+   "en": "BAR · SEAT 2\nFEEDBACK OPEN",
+   "item": "1 ×  Inquiry: shrimp",
+   "zh": ""
+  },
+  {
+   "id": "verify",
+   "kind": "message",
+   "en": "VERIFY FRESHNESS.\nMAINTAIN EYE CONTACT.",
+   "zh": "確認新鮮度。保持眼神接觸。"
+  },
+  {
+   "id": "duty",
+   "kind": "message",
+   "en": "NEW DUTY:\nCHARGING STATION",
+   "zh": "新增職務：充電站"
+  }
+ ],
+ "cards": [
+  {
+   "id": "C1",
+   "t": [
+    61.6,
+    65.4
+   ],
+   "en": "Platypuses use electroreception underwater.",
+   "zh": "鴨嘴獸能在水下利用電感應尋找獵物。"
+  }
+ ],
+ "phone": {
+  "battery": "1%"
+ },
+ "end_title": {
+  "t": [
+   88.85,
+   90.0
+  ]
+ },
+ "clock": "21:52",
+ "signal": {
+  "t": [
+   41.4,
+   43.9
+  ],
+  "from": "s0",
+  "to": "bill",
+  "color": [
+   190,
+   240,
+   255
+  ]
+ },
+ "verify": {
+  "keymoments": [
+   1.5,
+   9.0,
+   11.0,
+   14.5,
+   20.0,
+   23.5,
+   25.6,
+   28.0,
+   30.0,
+   32.5,
+   35.5,
+   42.5,
+   45.5,
+   47.8,
+   50.0,
+   58.0,
+   62.6,
+   64.5,
+   66.6,
+   71.0,
+   73.2,
+   77.0,
+   82.0,
+   84.4,
+   86.4,
+   88.2,
+   89.6
+  ],
+  "battery_frames": [
+   71.0,
+   89.6
+  ]
+ }
+}

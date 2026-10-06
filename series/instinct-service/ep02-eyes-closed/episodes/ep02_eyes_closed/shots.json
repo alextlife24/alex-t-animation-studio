@@ -1,0 +1,237 @@
+{
+ "_doc": "[start, camera preset (series/set_forest_bar.json + episodes/ep02_eyes_closed/props.json), options]. Same grammar as EP01: two-shot wide, character close-ups, prop inserts; new here are short underwater inserts (UNDER) through the tank's front glass.",
+ "shots": [
+  [
+   0.0,
+   "OPEN",
+   {
+    "push": 0.06
+   }
+  ],
+  [
+   "L02.start-0.3",
+   "PAT_MS",
+   {
+    "push": 0.03
+   }
+  ],
+  [
+   "L03.start-0.3",
+   "BEAR_CU",
+   {
+    "push": 0.04
+   }
+  ],
+  [
+   9.25,
+   "PAT_CU",
+   {
+    "push": 0.0
+   }
+  ],
+  [
+   9.75,
+   "SCREEN",
+   {
+    "push": 0.05
+   }
+  ],
+  [
+   12.7,
+   "PAT_CU",
+   {
+    "push": 0.04
+   }
+  ],
+  [
+   18.9,
+   "PAT_MS",
+   {
+    "push": 0.02,
+    "lens": 32
+   }
+  ],
+  [
+   21.7,
+   "STOOL",
+   {
+    "push": 0.03
+   }
+  ],
+  [
+   24.9,
+   "TANK",
+   {
+    "push": 0.05
+   }
+  ],
+  [
+   26.6,
+   "DIP",
+   {
+    "push": 0.04
+   }
+  ],
+  [
+   28.9,
+   "UNDER",
+   {
+    "push": 0.03
+   }
+  ],
+  [
+   30.9,
+   "BEAR_CU",
+   {
+    "push": 0.05
+   }
+  ],
+  [
+   34.3,
+   "DIP",
+   {
+    "push": 0.02
+   }
+  ],
+  [
+   "L07.start-0.4",
+   "BEAR_CU",
+   {
+    "push": 0.05
+   }
+  ],
+  [
+   39.0,
+   "UNDER",
+   {
+    "push": 0.06
+   }
+  ],
+  [
+   41.0,
+   "UNDER2",
+   {
+    "push": 0.04
+   }
+  ],
+  [
+   44.0,
+   "DIP",
+   {
+    "push": 0.03
+   }
+  ],
+  [
+   47.0,
+   "TANK",
+   {
+    "push": 0.03
+   }
+  ],
+  [
+   "L08.start-0.2",
+   "STOOL2",
+   {
+    "push": 0.03
+   }
+  ],
+  [
+   "L08.end+0.2",
+   "BEAR_CU",
+   {
+    "push": 0.03
+   }
+  ],
+  [
+   "L10.start-0.4",
+   "STOOL2",
+   {
+    "push": 0.04
+   }
+  ],
+  [
+   "L11.end-1.7",
+   "TANK",
+   {
+    "push": 0.03
+   }
+  ],
+  [
+   63.4,
+   "DIP",
+   {
+    "push": 0.02
+   }
+  ],
+  [
+   65.0,
+   "BEAR_CU",
+   {
+    "push": 0.05
+   }
+  ],
+  [
+   "L12.end+0.2",
+   "PHONE",
+   {
+    "push": 0.05
+   }
+  ],
+  [
+   "L13.start-0.3",
+   "BEAR_CU",
+   {
+    "push": 0.03
+   }
+  ],
+  [
+   "L13.end+0.05",
+   "OPEN",
+   {
+    "push": 0.02
+   }
+  ],
+  [
+   74.3,
+   "PAT_CU",
+   {
+    "push": 0.03
+   }
+  ],
+  [
+   "L15.start-0.3",
+   "BEAR_CU",
+   {
+    "push": 0.04
+   }
+  ],
+  [
+   "L16.start-0.25",
+   "PAT_CU",
+   {
+    "push": 0.02
+   }
+  ],
+  [
+   85.3,
+   "SCREEN",
+   {
+    "push": 0.04
+   }
+  ],
+  [
+   87.5,
+   "END",
+   {
+    "push": 0.03
+   }
+  ],
+  [
+   88.75,
+   "PHONE_BAR",
+   {
+    "push": 0.04
+   }
+  ]
+ ]
+}
